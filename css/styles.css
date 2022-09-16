@@ -6,7 +6,7 @@ body {
     width: 400px;
     background: initial;   
     border-radius: 25px;
-    border: 1px solid black;
+    border: 2px dotted black;
 }
 #content-display {
 
