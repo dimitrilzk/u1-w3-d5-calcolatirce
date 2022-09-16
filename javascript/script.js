@@ -19,3 +19,9 @@ function deleteDisplay() {
 //     document.getElementById("display").placeholder = "errore";
 //   }
 // }
+
+try {
+  document.getElementById("display").value = result;
+} catch (error) {
+  document.getElementById("display").placeholder = "Error";
+}
