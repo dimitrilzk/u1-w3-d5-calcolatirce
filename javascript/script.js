@@ -20,8 +20,18 @@ function deleteDisplay() {
 //   }
 // }
 
-try {
-  document.getElementById("display").value = result;
-} catch (error) {
-  document.getElementById("display").placeholder = "Error";
-}
+// try {
+//   document.getElementById("display").value = result;
+// } catch (error) {
+//   document.getElementById("display").placeholder = "Error";
+// }
+
+// try {
+//     function writeToDisplay(element) {
+//         document.getElementById("display").value ++= element;
+//       }
+// } catch (error) {
+//   document.getElementById("display").placeholder = "Error";
+// }
+
+//niente da fare
