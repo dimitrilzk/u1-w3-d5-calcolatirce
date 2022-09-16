@@ -10,6 +10,7 @@ function deleteDisplay() {
   document.getElementById("display").value = "";
 }
 
+// non capisco come scrivere la condizione di errore, come traduco in codice il fatto che se si usa ** o // o ++ è un errore?
 // function errore() {
 //   let result = eval(document.getElementById("display").value);
 //   if ((document.getElementById("display").value = result)) {
