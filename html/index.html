@@ -8,6 +8,37 @@
     <title>Calcolatrice</title>
   </head>
   <body>
+    <div id="content-display">
+      <input type="text" id="display" readonly placeholder="0" />
+    </div>
+    <div id="content-buttons">
+      <div id="buttons">
+        <button onclick="writeToDisplay('7')">7</button>
+        <button onclick="writeToDisplay('8')">8</button>
+        <button onclick="writeToDisplay('9')">9</button>
+        <button onclick="writeToDisplay('/')">/</button>
+      </div>
+      <div id="buttons">
+        <button onclick="writeToDisplay('4')">4</button>
+        <button onclick="writeToDisplay('5')">5</button>
+        <button onclick="writeToDisplay('6')">6</button>
+        <button onclick="writeToDisplay('*')">*</button>
+      </div>
+      <div id="buttons">
+        <button onclick="writeToDisplay('1')">1</button>
+        <button onclick="writeToDisplay('2')">2</button>
+        <button onclick="writeToDisplay('3')">3</button>
+        <button onclick="writeToDisplay('-')">-</button>
+      <div id="buttons">
+        <button onclick="deleteDisplay()">C</button>
+        <button onclick="writeToDisplay('0')">0</button>
+        <button onclick="writeToDisplay('.')">.</button>
+        <button onclick="writeToDisplay('+')">+</button>
+      </div>
+      <div id="buttons">
+        <button onclick="showResult()">=</button>
+      </div>
+    </div>
     <script src="../javascript/script.js"></script>
   </body>
 </html>
