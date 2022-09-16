@@ -4,9 +4,7 @@ body {
 #content-buttons {
     height: 500px;
     width: 400px;
-    background: linear-gradient(321deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 25%, rgba(0,212,255,1) 100%);
-    border: 1px solid black;
-    border-radius: 25px;
+    background: radial-gradient(circle, rgba(10,87,8,1) 1%, rgba(152,185,58,1) 14%, rgba(61,185,58,1) 33%, rgba(51,170,118,1) 47%, rgba(43,95,165,1) 62%, rgba(36,178,208,1) 82%);background: radial-gradient(circle, rgba(152,185,58,1) 14%, rgba(61,185,58,1) 33%, rgba(51,170,118,1) 47%, rgba(43,95,165,1) 62%, rgba(36,178,208,1) 82%);    border-radius: 25px;
 }
 #content-display {
 
@@ -33,10 +31,10 @@ button {
     background-color: floralwhite;
 }
 button:hover {
-    background: linear-gradient(321deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 25%, rgba(0,212,255,1) 100%);
+    background: radial-gradient(circle, rgba(185,58,58,1) 10%, rgba(61,185,58,1) 59%, rgba(36,149,208,1) 87%);
 }
 #casecalc {
-    background: linear-gradient(321deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 25%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(9deg, rgba(10,87,8,1) 1%, rgba(152,185,58,1) 14%, rgba(61,185,58,1) 33%, rgba(51,170,118,1) 47%, rgba(43,95,165,1) 62%, rgba(36,178,208,1) 82%);
     width: 550px;
     height: 675px;
     border: 1px solid black;
