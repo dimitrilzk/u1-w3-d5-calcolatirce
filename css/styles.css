@@ -4,14 +4,12 @@ body {
 #content-buttons {
     height: 500px;
     width: 400px;
-    background: initial;   
+    background: lightgray;   
     border-radius: 25px;
-    border: 2px dotted black;
+    border: 1px solid gray;
 }
 #content-display {
-
     width: 400px;
-    background-color: bisque;
 }
 #content-display input {
     width: 392px;
@@ -19,24 +17,25 @@ body {
     text-align: end;
     font-size: 60px;
     color: black;
-    background-color: floralwhite;
+    background-color: ghostwhite;
 }
 button {
     height: 90px;
     width: 90px;
     text-align: center;
     font-size: xx-large;
+    font-weight: bold;
     margin: 3px;
     margin-top: 6px;
     margin-left: 3px;
     border-radius: 50px;
-    background-color: floralwhite;
+    background-color: ghostwhite;
 }
 button:hover {
-    background: radial-gradient(circle, rgba(185,58,58,1) 10%, rgba(61,185,58,1) 59%, rgba(36,149,208,1) 87%);
+    background: radial-gradient(circle, rgba(154,165,43,0) 50%, rgba(208,188,36,1) 80%);
 }
 #casecalc {
-    background: linear-gradient(9deg, rgba(10,87,8,1) 1%, rgba(152,185,58,1) 14%, rgba(61,185,58,1) 33%, rgba(51,170,118,1) 47%, rgba(43,95,165,1) 62%, rgba(36,178,208,1) 82%);
+    background-color: silver;
     width: 550px;
     height: 675px;
     border: 1px solid black;
